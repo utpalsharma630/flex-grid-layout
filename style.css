@@ -5,3 +5,15 @@
     width: 100%;
     height: 400px;
 }
+.second-section{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 5px;
+}
+.second-section img{
+    width:100% ;
+    height: 400px;
+}
+.second-layout img{
+    height:198px;
+}
