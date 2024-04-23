@@ -17,3 +17,34 @@
 .second-layout img{
     height:198px;
 }
+.third-section{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 5px;
+
+}
+.third-section img{
+    height: 400px;
+    width: 100%;
+}
+.third-layout{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 5px;
+
+}
+.third-layout img{
+    height: 196px;
+    width: 100%;
+}
+@media screen and (max-width:576px){
+    .second-section{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .third-section{
+       
+        grid-template-columns: repeat(1,1fr);
+        
+    
+    }
+}
